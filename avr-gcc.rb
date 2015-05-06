@@ -2,9 +2,9 @@ require 'formula'
 
 class AvrGcc < Formula
   homepage 'http://gcc.gnu.org'
-  url "http://ftpmirror.gnu.org/gcc/gcc-4.8.3/gcc-4.8.3.tar.bz2"
-  mirror "ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.8.3/gcc-4.8.3.tar.bz2"
-  sha1 'da0a2b9ec074f2bf624a34f3507f812ebb6e4dce'
+  url "http://ftpmirror.gnu.org/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2"
+  mirror "ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.9.2/gcc-4.9.2.tar.bz2"
+  sha1 '79dbcb09f44232822460d80b033c962c0237c6d8'
 
   depends_on 'coolya/avr/avr-binutils'
   depends_on 'gmp'
